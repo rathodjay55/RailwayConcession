@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="patwa.aman.com.hackathon.PhoneVerificationActivity">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phoneVerify_phone_edtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Phone Number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/phoneVerify_get_verify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Verification Code"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phoneVerify_otp_edtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter OTP"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/phoneVerify_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>

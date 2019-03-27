@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="patwa.aman.com.hackathon.MainActivity">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/main_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/main_phone_verify_btn"
+        android:layout_alignParentTop="true"
+        android:foregroundGravity="center_horizontal"
+        android:layout_alignStart="@+id/main_phone_verify_btn"
+        android:layout_marginTop="158dp">
+
+
+    </com.google.android.gms.common.SignInButton>
+
+    <Button
+        android:id="@+id/main_phone_verify_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/main_sign_in"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="51dp"
+        android:background="#ffff"
+        android:padding="5dp"
+        android:text="Phone Verification" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="patwa.aman.com.hackathon.StudentDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" tools:context=".students_details" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_name">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="Student Name" android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_pass_number">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="Pass Number" android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_college">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="College Name " android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_sapid">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="SapId" android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+        -<android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_duration">
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Duration" android:textSize="20dp" android:inputType="number" android:padding="20dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+        -<android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_railwayclass">
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Class" android:textSize="20dp" android:inputType="number" android:padding="20dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_phonenumber">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="Phone Number" android:textSize="20dp" android:inputType="number" android:padding="20dp"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_fromstation">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="Station From" android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/student_address">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Address " android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+</android.support.design.widget.TextInputLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/send_details" android:textSize="25dp" android:text="SEnd Details" android:layout_marginTop="25dp"/>
+
+</LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

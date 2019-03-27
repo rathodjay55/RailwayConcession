@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="patwa.aman.com.hackathon.login">
+
+    <LinearLayout android:weightSum="3" tools:context=".MainActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.widget.CardView android:layout_height="150dp" android:layout_width="match_parent" app:cardCornerRadius="10dp" android:layout_weight="1">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <Button android:layout_height="match_parent" android:layout_width="match_parent" android:background="#FF8040" android:textColor="#ffffff" android:textSize="20dp" android:text="Student Login" android:padding="10dp" android:id="@+id/login_student"/>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView android:layout_height="150dp" android:layout_width="match_parent" app:cardCornerRadius="10dp" android:layout_weight="1">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <Button android:layout_height="match_parent" android:layout_width="match_parent" android:background="#ffffff" android:textColor=" #40BFFF" android:textSize="20dp" android:text="College Login" android:padding="10dp" android:id="@+id/login_college"/>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView android:layout_height="150dp" android:layout_width="match_parent" app:cardCornerRadius="10dp" android:layout_weight="1">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <Button android:layout_height="match_parent" android:layout_width="match_parent" android:background="#008000" android:textColor="#ffffff" android:textSize="20dp" android:text="Railway Login" android:padding="10dp" android:id="@+id/login_railway"/>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

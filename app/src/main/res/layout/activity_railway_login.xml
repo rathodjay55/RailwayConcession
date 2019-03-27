@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="patwa.aman.com.hackathon.RailwayLoginActivity">
+
+
+     <LinearLayout android:background="#87afc7" android:orientation="vertical" tools:context=".college_login" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/railway_name"
+                android:layout_marginTop="5dp">
+
+            <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="ADMIN NAME" android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/railway_email">
+
+            <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="EMAIL" android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/railway_uniquekey">
+
+            <EditText android:layout_height="wrap_content" android:layout_width="match_parent"  android:hint="UNIQUE KEY" android:textSize="20dp" android:inputType="text" android:padding="20dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/railway_login"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:textColor="#800000"
+                android:layout_marginTop="70dp"
+                android:text="LOGIN"/>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
